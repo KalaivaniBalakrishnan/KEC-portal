@@ -1,0 +1,79 @@
+.staff-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submitted-data {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.submitted-data th, .submitted-data td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.submitted-data th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.submitted-data th:hover {
+    background-color: #e2e2e2;
+}
+
+.submitted-data tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.submitted-data tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:nth-child(1) {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+button:nth-child(2) {
+    background-color: #f44336; /* Red */
+    color: white;
+}

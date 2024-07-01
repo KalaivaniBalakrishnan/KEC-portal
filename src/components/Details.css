@@ -1,0 +1,23 @@
+.details-container {
+    margin-top: 2rem;
+}
+
+.search-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.search-type, .search-input, .search-button {
+    padding: 0.5rem;
+}
+
+.search-button {
+    cursor: pointer;
+}
+
+.details-info {
+    margin-top: 1rem;
+    border: 1px
+}
